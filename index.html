@@ -1,66 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
- 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
 
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Order summary card</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
   <main>
-  <section id="media" class="flex-container media mediaq">
-<img class="header-image"src="images/illustration-hero.svg" alt="">
-<div class="bg-white">
-<h1 class="title">Order Summary</h1> 
+    <section id="media" class="flex-container media mediaq">
+      <img class="header-image" src="images/illustration-hero.svg" alt="">
+      <div class="bg-white">
+        <h1 class="title">Order Summary</h1>
 
-  <p class="info-para">You can now listen to millions of songs, audiobooks, and podcasts on any 
-    device anywhere you like!</p>
-<div class="plan">
+        <p class="info-para">You can now listen to millions of songs, audiobooks, and podcasts on any
+          device anywhere you like!</p>
+        <div class="plan">
 
 
-    <div id="grow0">
-      <img src="images/icon-music.svg" alt="icon music">
+          <div id="grow0">
+            <img src="images/icon-music.svg" alt="icon music">
+          </div>
+          <div id="grow1">
+            <h4>Annual Plan</h4>
+            <p>$59.99/year</p>
+          </div>
+          <div id="grow2">
+            <a href="#">Change</a>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="button">
+          <button class="btn btn-blue">Proceed to Payment</button>
+          <button class=" btn btn-none">Cancel Order</button>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/MordenWebDev">MordenWebDev</a>.
     </div>
-    <div id="grow1">
-      <h4>Annual Plan</h4>
-      <p>$59.99/year</p>
-    </div>
-    <div id="grow2">
-      <a href="#">Change</a>
-    </div>
-  </div>
-
-
-
-  
-
-
-<div class="button">
-  <button class="btn btn-blue">Proceed to Payment</button> 
-  <button class=" btn btn-none">Cancel Order</button> 
-</div>
- 
-</div> 
-</section>
-</main>
-<footer>
-<div class="attribution">
-  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-  Coded by <a href="https://www.frontendmentor.io/profile/MordenWebDev">MordenWebDev</a>.
-</div>
-</footer>
+  </footer>
 </body>
+
 </html>
